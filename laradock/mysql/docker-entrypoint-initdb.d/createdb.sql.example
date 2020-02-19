@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS `example` COLLATE 'utf8_general_ci' ;
+CREATE USER 'example'@'%' IDENTIFIED WITH mysql_native_password BY 'secret';
+GRANT ALL ON `example`.* TO 'example'@'%' ;
+FLUSH PRIVILEGES ;
+
+# winpty docker-compose exec mysql bash
+# mysql -u root -p < /docker-entrypoint-initdb.d/createdb-example.sql

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+	<component name="PhpDebugGeneral" xdebug_debug_port="9001" listening_started="true" show_pre_config_in_web_page="false" />
+	<component name="PhpServers">
+		<servers>
+			<server host="example.local" id="5925e372-0194-4ac3-a19a-b8736272830a" name="laradock" use_path_mappings="true">
+				<path_mappings>
+				  	<mapping local-root="$PROJECT_DIR$" remote-root="/var/www/example" />
+				  	<mapping local-root="$PROJECT_DIR$/public" remote-root="/var/www/example/public" />
+				</path_mappings>
+			</server>
+		</servers>
+	</component>
+	<component name="RunManager" selected="PHP Web Page.Debug example">
+	    <configuration name="example" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="laradock">
+	      	<method v="2" />
+	    </configuration>
+	    <list>
+	      	<item itemvalue="PHP Web Page.Debug example" />
+	    </list>
+  	</component>
+</project>
