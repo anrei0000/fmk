@@ -49,5 +49,12 @@ There is 1 extra step here:
 
 Please read the source to find all other functionalities.
 
+### Known errors
+* Run `fmk-lara-up` and get
+
+`open \\.\pipe\docker_engine_linux: The system cannot find the file specified.`
+
+This means your Docker didn't start yet. Patience young padawan.
+
 # Contributing
 Now THAT would be great! Thanks a bunch!
