@@ -56,5 +56,13 @@ Please read the source to find all other functionalities.
 
 This means your Docker didn't start yet. Patience young padawan.
 
+* Sometimes there is an issue connecting to the mysql db from PHPStorm.
+
+This happens when 
+1. the host is set to `host.docker.internal`
+2. the windows hosts file contains a `host.docker.internal` entry added by default by docker
+
+-> a fix (not a recommendation) is to set the windows hosts file entry to `127.0.0.1 host.docker.internal`
+
 # Contributing
 Now THAT would be great! Thanks a bunch!
